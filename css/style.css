@@ -10,9 +10,9 @@ h3 {
     font-family: 'Andika', sans-serif;
 }
 
-h1 {
+/* h1 {
     font-size: 64px;
-}
+} */
 
 .container {
     height: 90vh;
@@ -28,8 +28,9 @@ h1 {
 }
 
 .hero-section h1 {
-    line-height: 70px;
+    line-height: 85px;
     margin-bottom: 20px;
+    font-size: 80px;
 }
 
 .hero-section p {
@@ -56,50 +57,23 @@ h1 {
     padding-right: 15%;
 }
 
-.service-col1 {
+.service-col {
     padding: 10px;
 }
 
-.service-col2 {
+.service-col {
     padding: 0px 30px 00px 30px;
     margin: auto;
 }
 
-.service-col2 h3 {
+.service-col h3 {
     font-size: 22px;
 }
 
-.service-col2 p {
+.service-col p {
     font-size: 20px;
     margin-top: 10px;
-}
-
-.service-col3 {
-    padding: 0px 30px 00px 30px;
-    margin: auto;
-}
-
-.service-col3 h3 {
-    font-size: 22px;
-}
-
-.service-col3 p {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.service-col4 {
-    padding: 0px 30px 00px 30px;
-    margin: auto;
-}
-
-.service-col4 h3 {
-    font-size: 22px;
-}
-
-.service-col4 p {
-    font-size: 20px;
-    margin-top: 10px;
+    padding: 0;
 }
 
 .container2 {
@@ -123,6 +97,7 @@ h1 {
 .wwa h1 {
     line-height: 65px;
     margin-bottom: 30px;
+    font-size: 60px;
 }
 
 .wwap {
@@ -156,10 +131,77 @@ p {
     border: 2px solid #48fd4a;
     border-radius: 10px;
     text-decoration: none;
+    float: none;
 }
 
 .trainer a:hover {
     background-color: #48fd4a;
     color: #000000;
     font-size: 18px;
+}
+
+.container3 {
+    background-color: #000000;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.wcu1 {
+    width: 50%;
+
+}
+
+.wcu1 img {
+    width: 70%;
+}
+
+.wcu2 {
+    width: 50%;
+    margin: auto;
+}
+
+.wcu2 h4 {
+    color: #48fd4a;
+    margin-bottom: 10px;
+}
+
+.wcu2 h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.wcu2 p {
+    padding: 0;
+    font-size: 18px;
+}
+
+.container4 {
+    background-color: #000000;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.years {
+    width: 25%;
+    text-align: center;
+}
+
+.years h1 {
+    font-size: 90px;
+}
+
+.years p {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
 }
