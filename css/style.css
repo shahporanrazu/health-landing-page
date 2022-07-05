@@ -43,6 +43,8 @@ h1 {
     background-color: #48fd4a;
     color: #000;
     font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 .container1 {
@@ -113,17 +115,51 @@ h1 {
     padding-right: 20%;
 }
 
+.wwa h4 {
+    color: #48fd4a;
+    margin-bottom: 10px;
+}
+
 .wwa h1 {
     line-height: 65px;
+    margin-bottom: 30px;
+}
+
+.wwap {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .wwa1 {
     display: flex;
-    width: 50%;
+    width: 70%;
     padding: 20px;
 }
 
 .wwa1 h3,
 p {
     padding: 0px 10px 0px 10px;
+}
+
+.trainer {
+    width: 50%;
+}
+
+.trainer img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.trainer a {
+    background-color: transparent;
+    padding: 15px 40px 15px 40px;
+    border: 2px solid #48fd4a;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.trainer a:hover {
+    background-color: #48fd4a;
+    color: #000000;
+    font-size: 18px;
 }
