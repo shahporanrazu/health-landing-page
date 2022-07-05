@@ -58,12 +58,9 @@ h3 {
 }
 
 .service-col {
-    padding: 10px;
-}
-
-.service-col {
     padding: 0px 30px 00px 30px;
     margin: auto;
+    padding: 30px;
 }
 
 .service-col h3 {
@@ -71,7 +68,7 @@ h3 {
 }
 
 .service-col p {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
     padding: 0;
 }
