@@ -99,3 +99,31 @@ h1 {
     font-size: 20px;
     margin-top: 10px;
 }
+
+.container2 {
+    display: flex;
+    background-color: #000000;
+    padding-left: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15%;
+}
+
+.wwa {
+    padding-right: 20%;
+}
+
+.wwa h1 {
+    line-height: 65px;
+}
+
+.wwa1 {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+}
+
+.wwa1 h3,
+p {
+    padding: 0px 10px 0px 10px;
+}
